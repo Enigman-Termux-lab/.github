@@ -19,12 +19,15 @@
 
 </div>
 
-## 🌐 Витрина быстрого перехода (Quick Links)
+## 🌐 Проекты лаборатории (Projects)
 
-| Раздел / Проект | Назначение | Ссылка |
+Все инструменты, мосты и скиллы публикуются в виде отдельных специализированных репозиториев прямо в этой организации:
+
+| Проект / Инструмент | Назначение и стек | Репозиторий |
 | :--- | :--- | :---: |
-| 🗂️ **termux-lab-index** | **Центральный каталог и навигатор** по всем скиллам, MCP-мостам, виджетам и сенсорам лаборатории | [Открыть индекс](https://github.com/Enigman-Termux-lab/termux-lab-index) |
-| ⚡ **gemini-spark-mcp-bridge** | **Флагманский двусторонний MCP-мост**: удалённое управление Termux и Antigravity из веб-интерфейса Google Gemini Spark | [Перейти к мосту](https://github.com/Enigman-Termux-lab/gemini-spark-mcp-bridge) |
+| ⚡ **gemini-spark-mcp-bridge** | **Флагманский двусторонний MCP-мост**: удалённое управление Termux и Antigravity CLI из веб-интерфейса Google Gemini Spark по FastMCP / Streamable HTTP. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/gemini-spark-mcp-bridge) |
+
+> 💡 Полный список текущих и будущих разработок доступен во вкладке **[Repositories](https://github.com/orgs/Enigman-Termux-lab/repositories)**.
 
 ---
 
