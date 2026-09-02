@@ -29,6 +29,9 @@
 | 🤖 **codex-termux-remote-control** | **Codex Remote Control**: Подключение OpenAI Codex CLI в Termux к мобильному приложению ChatGPT Remote Control + виджеты быстрого запуска. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/codex-termux-remote-control) |
 | 🔘 **termux-widget-shortcuts** | **Виджеты и ярлыки**: Готовые шаблоны и руководство по созданию виджетов рабочего стола Termux:Widget и Android Dynamic Shortcuts. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/termux-widget-shortcuts) |
 | 🔧 **termux-fix-path** | **Termux Fix Path**: Диагностика и исправление ошибок запуска Linux CLI-утилит (shebang, Bionic ELF, glibc, библиотека linker). | [Перейти к проекту](https://github.com/Enigman-Termux-lab/termux-fix-path) |
+| 🛡️ **opencode-termux-sandbox** | **OpenCode Sandbox**: Изолированная контейнерная песочница на базе Alpine Linux (PRoot-Distro) для безопасной работы AI-агентов. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/opencode-termux-sandbox) |
+| 🔔 **termux-agent-notify** | **Agent Notify**: Android Push-уведомления и тактильный виброотклик по готовности ответов фоновых AI-агентов (Antigravity, OpenCode). | [Перейти к проекту](https://github.com/Enigman-Termux-lab/termux-agent-notify) |
+| ⚡ **termux-shutdown-tools** | **Shutdown & Wakelock**: Чистый экзит фоновых процессов, предотвращение скрытого разряда батареи и управление CPU Wakelock. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/termux-shutdown-tools) |
 
 > 💡 Полный список текущих и будущих разработок доступен во вкладке **[Repositories](https://github.com/orgs/Enigman-Termux-lab/repositories)**.
 
