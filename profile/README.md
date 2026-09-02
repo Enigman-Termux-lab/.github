@@ -25,7 +25,10 @@
 
 | Проект / Инструмент | Назначение и стек | Репозиторий |
 | :--- | :--- | :---: |
-| ⚡ **gemini-spark-mcp-bridge** | **MCP-мост для Spark Gemini**: Управляйте Termux и Antigravity CLI(и на пк) из веб-интерфейса Google Gemini Spark по FastMCP / Streamable HTTP. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/gemini-spark-mcp-bridge) |
+| ⚡ **gemini-spark-mcp-bridge** | **MCP-мост для Spark Gemini**: Управляйте Termux и Antigravity CLI (и на ПК) из веб-интерфейса Google Gemini Spark по FastMCP / Streamable HTTP. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/gemini-spark-mcp-bridge) |
+| 🤖 **codex-termux-remote-control** | **Codex Remote Control**: Подключение OpenAI Codex CLI в Termux к мобильному приложению ChatGPT Remote Control + виджеты быстрого запуска. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/codex-termux-remote-control) |
+| 🔘 **termux-widget-shortcuts** | **Виджеты и ярлыки**: Готовые шаблоны и руководство по созданию виджетов рабочего стола Termux:Widget и Android Dynamic Shortcuts. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/termux-widget-shortcuts) |
+| 🔧 **termux-fix-path** | **Termux Fix Path**: Диагностика и исправление ошибок запуска Linux CLI-утилит (shebang, Bionic ELF, glibc, библиотека linker). | [Перейти к проекту](https://github.com/Enigman-Termux-lab/termux-fix-path) |
 
 > 💡 Полный список текущих и будущих разработок доступен во вкладке **[Repositories](https://github.com/orgs/Enigman-Termux-lab/repositories)**.
 
