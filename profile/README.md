@@ -25,7 +25,7 @@
 
 | Проект / Инструмент | Назначение и стек | Репозиторий |
 | :--- | :--- | :---: |
-| ⚡ **gemini-spark-mcp-bridge** | **Флагманский двусторонний MCP-мост**: удалённое управление Termux и Antigravity CLI из веб-интерфейса Google Gemini Spark по FastMCP / Streamable HTTP. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/gemini-spark-mcp-bridge) |
+| ⚡ **gemini-spark-mcp-bridge** | **MCP-мост для Spark Gemini**: Управляйте Termux и Antigravity CLI(и на пк) из веб-интерфейса Google Gemini Spark по FastMCP / Streamable HTTP. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/gemini-spark-mcp-bridge) |
 
 > 💡 Полный список текущих и будущих разработок доступен во вкладке **[Repositories](https://github.com/orgs/Enigman-Termux-lab/repositories)**.
 
@@ -35,7 +35,7 @@
 
 Современные смартфоны обладают внушительной вычислительной мощностью (ARM64, 8-16 GB RAM, NPU), но большую часть времени простаивают в кармане.
 
-Наша цель — превратить связку **Android + Termux** в:
+Моя— превратить связку **Android + Termux** в:
 1. 📱 **Edge AI Node**: Полноценный микросервер, доступный 24/7 для выполнения фоновых задач, сбора телеметрии и хостинга локальных агентов.
 2. 🔌 **Universal MCP Hub**: Стандартизированный узел, предоставляющий облачным ИИ-моделям (Gemini Spark, Claude, GPT) безопасный доступ к файловой системе, терминалу, системным утилитам и датчикам Android.
 3. 🦾 **Autonomous Pair-Programming**: Возможность ставить задачи ИИ-агентам прямо с телефона и контролировать их выполнение через виджеты в один клик.
