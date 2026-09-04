@@ -19,7 +19,7 @@
 
 </div>
 
-## 🌐 Проекты лаборатории (Projects)
+## 🌐 Проекты лаборатории
 
 Все инструменты, скиллы публикуются в виде отдельных специализированных репозиториев прямо в этой организации:
 
@@ -32,6 +32,9 @@
 | 🛡️ **opencode-termux-sandbox** | **OpenCode Sandbox**: Изолированная контейнерная песочница на базе Alpine Linux (PRoot-Distro) для безопасной работы AI-агентов. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/opencode-termux-sandbox) |
 | 🔔 **termux-agent-notify** | **Agent Notify**: Android Push-уведомления и тактильный виброотклик по готовности ответов фоновых AI-агентов (Antigravity, OpenCode). | [Перейти к проекту](https://github.com/Enigman-Termux-lab/termux-agent-notify) |
 | ⚡ **termux-shutdown-tools** | **Shutdown & Wakelock**: Чистый экзит фоновых процессов, предотвращение скрытого разряда батареи и управление CPU Wakelock. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/termux-shutdown-tools) |
+| 🧹 **termux-cleanup** | **Безопасная очистка**: Удаление устаревших кэшей apt, npm, pip, pnpm store, логов и временных файлов без риска поломки окружения. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/termux-cleanup) |
+| 🔄 **termux-auto-updater** | **Безопасное автообновление**: Автоматизированное обновление пакетов и CLI-агентов с защитой shebang и путей по стандарту termux-fix-path. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/termux-auto-updater) |
+| 📱 **termux-api** | **Hardware & Sensor Bridge**: Набор скриптов и скилл прямого доступа автономных AI-агентов к аппаратным сенсорам, батарее и Android API. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/termux-api) |
 
 > 💡 Полный список текущих и будущих разработок доступен во вкладке **[Repositories](https://github.com/orgs/Enigman-Termux-lab/repositories)**.
 
@@ -50,38 +53,6 @@
 2. 🔌 **Universal MCP Hub**: Безопасный мост, дающий облачным моделям (Gemini Spark и др.) прямой доступ к терминалу, файлам и датчикам Android или рабочего ПК.
 3. 🦾 **One-Tap AI Automation**: Запуск кодинг-агента (**Antigravity CLI**) и сложных цепочек автоматизации в один клик прямо с виджетов на рабочем столе смартфона.
 
----
-
-## 🏗️ Архитектура экосистемы
-
-```text
-  ┌──────────────────────────────────────────────────────────────┐
-  │                 Облачные LLM / Веб-интерфейсы                │
-  │        (Gemini Spark, Google AI Studio, Claude, GPT)         │
-  └──────────────────────────────┬───────────────────────────────┘
-                                 │
-                                 │ Model Context Protocol (Streamable HTTP / SSE)
-                                 ▼
-  ┌──────────────────────────────────────────────────────────────┐
-  │                   Android Phone (Termux)                     │
-  │                                                              │
-  │   ┌────────────────────────┐      ┌───────────────────────┐  │
-  │   │      MCP Bridges       │ ◄──► │     AI Agent Skills   │  │
-  │   │  (Uvicorn + FastMCP)   │      │  (System Prompts, SOP)│  │
-  │   └───────────┬────────────┘      └───────────────────────┘  │
-  │               │                                              │
-  │               ▼                                              │
-  │   ┌────────────────────────┐      ┌───────────────────────┐  │
-  │   │   Termux Core Engine   │ ◄──► │   Termux:Widget &     │  │
-  │   │ (Bash, Python, Git, gh)│      │   Hardware Sensors    │  │
-  │   └───────────┬────────────┘      └───────────────────────┘  │
-  │               │                                              │
-  │               ▼                                              │
-  │   ┌────────────────────────┐                                 │
-  │   │    Antigravity CLI     │ (Автономный AI кодинг-агент)    │
-  │   └────────────────────────┘                                 │
-  └──────────────────────────────────────────────────────────────┘
-```
 ---
 
 ## 👤 Автор и сообщество
