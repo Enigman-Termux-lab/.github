@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ Enigman Termux Lab
+# ⚡ Enigman Termux Lab 1.0
 
 ### *Autonomous Edge AI & Tooling Ecosystem on Android*
 
