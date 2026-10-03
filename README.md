@@ -1,87 +1,45 @@
-<div align="center">
+# 🧭 Центральный Холл | Enigman Termux Lab
 
-# ⚡ Enigman Termux Lab 1.0
+> **Enigman Termux** — открытая исследовательская лаборатория и экосистема инструментов, превращающая обычный Android-смартфон в автономную вычислительную ноду для локальных и облачных ИИ-агентов.
 
-### *Autonomous Edge AI & Tooling Ecosystem on Android*
+Добро пожаловать в Главный координационный зал лаборатории. 
 
-[![Termux](https://img.shields.io/badge/Termux-Android-000000?style=for-the-badge&logo=termux&logoColor=white)](https://termux.dev/)
-[![FastMCP](https://img.shields.io/badge/FastMCP-2.0-blueviolet?style=for-the-badge&logo=fastapi&logoColor=white)](https://github.com/jlowin/fastmcp)
-[![Python 3](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![Bash](https://img.shields.io/badge/Bash-Automation-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)](https://www.gnu.org/software/bash/)
-[![Google Gemini](https://img.shields.io/badge/Google-Gemini%20Pro-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)](https://gemini.google.com/)
-[![Antigravity CLI](https://img.shields.io/badge/Antigravity-CLI%20Agent-orange?style=for-the-badge&logo=google&logoColor=white)](https://github.com/Enigman-Termux-lab/antigravity-cli-termux)
-[![Lab Version](https://img.shields.io/badge/Lab%20Version-v1.0-39FF14?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Enigman-Termux-lab)
-
-<br/>
-
-**Enigman Termux Lab** — открытая исследовательская лаборатория и экосистема инструментов, превращающая обычный Android-смартфон в автономную вычислительную ноду для локальных и облачных ИИ-агентов.
+Это центральная точка входа в экосистему: здесь сходятся архитектурные чертежи, активные шлюзы и каналы удалённого управления мобильным Linux. Оставьте сложность консольных команд за порогом — ниже представлены наш манифест и полный реестр действующих модулей.
 
 ---
 
-</div>
+## 🎯 Главная цель (Миссия лаборатории)
 
-## 🌐 Проекты лаборатории
+Большинство людей используют смартфон исключительно как «экран для потребления контента». При этом внутри каждого современного устройства скрывается мощный процессор (ARM64) и 8–16 ГБ оперативной памяти — по вычислительной мощности это уровень полноценного персонального компьютера.
 
-Все инструменты, скиллы публикуются в виде отдельных специализированных репозиториев прямо в этой организации:
+**Termux** превращает Android в настоящий карманный Linux без root-прав. Но у этого есть обратная сторона: **терминальная среда сложна**, требует навыков системного администрирования и крайне неудобна для набора консольных команд на маленьком сенсорном экране.
 
-| Проект / Инструмент | Назначение и стек | Репозиторий |
-| :--- | :--- | :---: |
-| 🪝 **termux-agent-hooks** | **AI Agent Hooks**: Тактильный виброотклик (32мс), звуковые пуши при длительных задачах (>5 мин), биометрический щит (отпечаток пальца) на опасные команды и суточный кулдаун обновлений. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/termux-agent-hooks) |
-| 🚀 **antigravity-cli-termux** | **Официальный Antigravity CLI в Termux**: Нативный автономный AI-агент от Google (NDK/Bionic libc, v1.2.15+). Больше не нужны сторонние форки и патчи `termux-fix-path`. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/antigravity-cli-termux) |
-| 🤖 **codex-termux-remote-control** | **Codex Remote Control**: Подключение OpenAI Codex CLI в Termux к мобильному приложению ChatGPT Remote Control + виджеты быстрого запуска. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/codex-termux-remote-control) |
-| 🛰️ **antigravity-remote-control** | **Antigravity Remote Control**: Удалённое управление сессиями Antigravity CLI (v1.2.6+) с ПК и смартфона через веб-UI + Termux:Widget. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/antigravity-remote-control) |
-| 🔘 **termux-widget-shortcuts** | **Виджеты и ярлыки**: Готовые шаблоны и руководство по созданию виджетов рабочего стола Termux:Widget и Android Dynamic Shortcuts. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/termux-widget-shortcuts) |
-| 🔧 **termux-fix-path** | **Termux Fix Path**: Диагностика и исправление ошибок запуска Linux CLI-утилит (shebang, Bionic ELF, glibc, библиотека linker). | [Перейти к проекту](https://github.com/Enigman-Termux-lab/termux-fix-path) |
-| 🛡️ **opencode-termux-sandbox** | **OpenCode Sandbox**: Изолированная контейнерная песочница на базе Alpine Linux (PRoot-Distro) для безопасной работы AI-агентов. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/opencode-termux-sandbox) |
-| 🔔 **termux-agent-notify** | **Agent Notify**: Android Push-уведомления и тактильный виброотклик по готовности ответов фоновых AI-агентов (Antigravity, OpenCode). | [Перейти к проекту](https://github.com/Enigman-Termux-lab/termux-agent-notify) |
-| ⚡ **termux-shutdown-tools** | **Shutdown & Wakelock**: Чистый экзит фоновых процессов, предотвращение скрытого разряда батареи и управление CPU Wakelock. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/termux-shutdown-tools) |
-| 🧹 **termux-cleanup** | **Безопасная очистка**: Удаление устаревших кэшей apt, npm, pip, pnpm store, логов и временных файлов без риска поломки окружения. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/termux-cleanup) |
-| 🔄 **termux-auto-updater** | **Безопасное автообновление**: Автоматизированное обновление пакетов и CLI-агентов с защитой shebang и путей по стандарту termux-fix-path. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/termux-auto-updater) |
-| ⚡ **gemini-spark-mcp-bridge** | **MCP-мост для Spark Gemini**: Управляйте Termux и Antigravity CLI (и на ПК) из веб-интерфейса Google Gemini Spark по FastMCP / Streamable HTTP. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/gemini-spark-mcp-bridge) |
-| 📱 **termux-api** | **Hardware & Sensor Bridge**: Набор скриптов и скилл прямого доступа автономных AI-агентов к аппаратным сенсорам, батарее и Android API. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/termux-api) |
+**Наша цель — превратить скрытую мощь терминала в доступный и удобный инструмент:**
+Вместо того чтобы вручную воевать с чёрной консолью и синтаксисом bash, всю сложную системную работу берёт на себя **автономный ИИ-агент**. Вы управляете системой через технологии **Remote Control** — современный, интуитивный визуальный интерфейс и простое общение на человеческом языке.
 
-> 💡 Полный список текущих и будущих разработок доступен во вкладке **[Repositories](https://github.com/orgs/Enigman-Termux-lab/repositories)**.
+1. 📱 **Карманный ПК 24/7:** Превращение смартфона в автономную рабочую станцию и микросервер (со встроенным аккумулятором-UPS и независимой связью).
+2. 🎛️ **Remote Control вместо консоли:** Управление процессами терминала из удобного визуального интерфейса без необходимости печатать команды вручную.
+3. 🤖 **Автономные агенты с «руками»:** Предоставление интеллекту прямого безопасного доступа к файлам и окружению для написания кода, настройки систем и выполнения задач.
 
 ---
 
-## 🚀 [Нативный Antigravity CLI в Termux](https://github.com/Enigman-Termux-lab/antigravity-cli-termux) (Официальный движок)
+## 🎛️ Каталог модулей лаборатории
 
-> [!IMPORTANT]
-> **Патчи больше не нужны!** Начиная с версии **1.2.15+**, больше **не требуется** патчить бинарники утилитой `termux-fix-path`, применять костыли под 39-битное адресное пространство (VA39, `agy.va39`) или собирать сторонние форки. Подробная документация и руководство: [antigravity-cli-termux](https://github.com/Enigman-Termux-lab/antigravity-cli-termux).
-
-### 🔍 Почему именно официальный репозиторий:
-- **Официальная нативная поддержка Android / Termux:** Google DeepMind официально включил платформу Android в целевую матрицу сборки Antigravity CLI.
-- **Сборка через Android NDK (Bionic libc):** Бинарники компилируются напрямую под нативную C-библиотеку Android (Bionic ELF, ARM64) без промежуточных трансляторов glibc, эмуляторов PRoot или подмены библиотек через `LD_PRELOAD`.
-- **Полная аппаратная стабильность:** Больше никаких сбоев аллокатора Google TCMalloc (`MmapAligned() failed` / SIGSEGV) и падений на системном вызове `faccessat2` на ядрах мобильных устройств.
-
-### 📦 Установка официального дистрибутива:
-```bash
-curl -fsSL https://antigravity.google/cli/install.sh | bash
-```
-
-### ⚡ Запуск и использование:
-```bash
-# Проверка установленной версии
-agy --version
-
-# Интерактивный запуск кодинг-агента
-agy
-```
-
----
-
-## 🎯 Что такое Termux и моя цель (Миссия лаборатории)
-
-Большинство людей используют смартфон только как «экран для соцсетей». При этом внутри современного телефона установлен мощный процессор (ARM64) и 8–16 ГБ оперативной памяти — по вычислительной мощности это уровень полноценного ноутбука.
-
-> **Termux** превращает Android в настоящий **карманный Linux без root-прав**, где одной командой (`pkg install`) ставятся `Python`, `Node.js`, `Git`, `OpenSSH`, базы данных, а через `Termux:API` есть прямой доступ к датчикам, батарее и системным функциям смартфона.
-
-С другой стороны — современные облачные нейросети (Google Gemini, Claude, ChatGPT), которые заперты в веб-браузерах: они отлично рассуждают и пишут код, но у них **нет «рук»**, чтобы запустить скрипт или протестировать решение на реальном железе.
-
-**Моя цель — объединить интеллект ИИ и возможности Termux через открытый протокол MCP:**
-1. 📱 **Edge AI Node**: Смартфон становится автономным микросервером 24/7 (со своим аккумулятором-UPS и мобильной связью) для фоновых задач и локальных вычислений.
-2. 🔌 **Universal MCP Hub**: Безопасный мост, дающий облачным моделям (Gemini Spark и др.) прямой доступ к терминалу, файлам и датчикам Android или рабочего ПК.
-3. 🦾 **One-Tap AI Automation**: Запуск кодинг-агента (**Antigravity CLI**) и сложных цепочек автоматизации в один клик прямо с виджетов на рабочем столе смартфона.
+| Инструмент / Репозиторий | Назначение и функциональность |
+| :--- | :--- |
+| 🛰️ **[antigravity-remote-control](https://github.com/Enigman-Termux-lab/antigravity-remote-control)** | Удалённое веб-управление Antigravity CLI в Termux (Live terminal, WebSocket, сессии) |
+| ⚡ **[antigravity-cli-termux](https://github.com/Enigman-Termux-lab/antigravity-cli-termux)** | Официальный нативный порт Google Antigravity CLI под Termux (Android Bionic, NDK r29) |
+| 🤖 **[codex-termux-remote-control](https://github.com/Enigman-Termux-lab/codex-termux-remote-control)** | Автономный запуск и интеграция OpenAI Codex CLI в Termux с Remote Control |
+| 🎛️ **[termux-widget-shortcuts](https://github.com/Enigman-Termux-lab/termux-widget-shortcuts)** | Генератор быстрых виджетов на рабочий стол Android для запуска AI-агентов в один клик |
+| 🛡️ **[opencode-termux-sandbox](https://github.com/Enigman-Termux-lab/opencode-termux-sandbox)** | Защищённая изолированная песочница PRoot (Alpine) для безопасной работы агентов |
+| 🔔 **[termux-agent-notify](https://github.com/Enigman-Termux-lab/termux-agent-notify)** | Системные push-уведомления и вибрация в Android при завершении задач агентами |
+| 🪝 **[termux-agent-hooks](https://github.com/Enigman-Termux-lab/termux-agent-hooks)** | Событийные хуки жизненного цикла для агентов (безопасность, перехват команд, логирование) |
+| 🧹 **[termux-cleanup](https://github.com/Enigman-Termux-lab/termux-cleanup)** | Автоматическая очистка дискового пространства Termux (кеши apt, npm, pip, pnpm) |
+| 🔄 **[termux-auto-updater](https://github.com/Enigman-Termux-lab/termux-auto-updater)** | Безопасное пакетное обновление CLI-инструментов с защитой от поломки путей |
+| 🔌 **[termux-fix-path](https://github.com/Enigman-Termux-lab/termux-fix-path)** | Анализ архитектуры и диагностика бинарников Bionic ELF / glibc в Termux |
+| 🛑 **[termux-shutdown-tools](https://github.com/Enigman-Termux-lab/termux-shutdown-tools)** | Корректное завершение фоновых демонов Termux и сохранение заряда батареи |
+| 🌉 **[termux-agent-bridge](https://github.com/Enigman-Termux-lab/termux-agent-bridge)** | Универсальный MCP Gateway & Bridge для подключения внешних агентов по FastMCP / HTTP |
+| 📲 **[termux-api](https://github.com/Enigman-Termux-lab/termux-api)** | Аппаратный мост к датчикам Android, буферу обмена, SMS и батарее для AI-агентов |
 
 ---
 
@@ -91,7 +49,3 @@ agy
 * Организация на GitHub: **[Enigman-Termux-lab](https://github.com/Enigman-Termux-lab)**
 
 Приглашаем разработчиков, энтузиастов Termux и исследователей агентных систем делиться идеями, создавать Issue и отправлять Pull Request!
-
----
-
-#termux #android #mcp #fastmcp #gemini-spark #antigravity #ai-agents #streamable-http #edge-ai #linux-on-android
