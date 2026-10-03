@@ -1,12 +1,30 @@
-# 🧭 Центральный Холл | Enigman Termux Lab
+<div align="center">
 
-> **Enigman Termux** — открытая исследовательская лаборатория и экосистема инструментов, превращающая обычный Android-смартфон в автономную вычислительную ноду для локальных и облачных ИИ-агентов.
+[![Return to @Eniggman](https://img.shields.io/badge/⬅%20Return%20to-@Eniggman-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Eniggman)
 
-Добро пожаловать в Главный координационный зал лаборатории. 
+# ⚡ Enigman Termux Lab 2.0
 
-Это центральная точка входа в экосистему: здесь сходятся архитектурные чертежи, активные шлюзы и каналы удалённого управления мобильным Linux. Оставьте сложность консольных команд за порогом — ниже представлены наш манифест и полный реестр действующих модулей.
+### *Autonomous Edge AI & Tooling Ecosystem on Android*
+
+[![Termux](https://img.shields.io/badge/Termux-Android-000000?style=for-the-badge&logo=termux&logoColor=white)](https://termux.dev/)
+[![FastMCP](https://img.shields.io/badge/FastMCP-2.0-blueviolet?style=for-the-badge&logo=fastapi&logoColor=white)](https://github.com/jlowin/fastmcp)
+[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Bash](https://img.shields.io/badge/Bash-Automation-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)](https://www.gnu.org/software/bash/)
+[![AI Agents](https://img.shields.io/badge/AI%20Agents-Autonomous-8E75B2?style=for-the-badge&logo=openai&logoColor=white)](https://github.com/Enigman-Termux-lab)
+[![Antigravity Bionic](https://img.shields.io/badge/Antigravity-Bionic%20r29-orange?style=for-the-badge&logo=google&logoColor=white)](https://github.com/Enigman-Termux-lab/antigravity-cli-termux)
+[![Lab Version](https://img.shields.io/badge/Lab%20Version-v2.0-39FF14?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Enigman-Termux-lab)
+[![Release Date](https://img.shields.io/badge/Release%20Date-October%202026-007EC6?style=for-the-badge&logo=googlecalendar&logoColor=white)](https://github.com/Enigman-Termux-lab)
+
+<br/>
+
+**Добро пожаловать в Главный координационный зал Enigman Termux Lab!**
+
+> **Enigman Termux** — открытая исследовательская лаборатория и экосистема инструментов, превращающая обычный Android-смартфон в автономную вычислительную ноду для локальных и облачных ИИ-агентов.  
+> Здесь сходятся архитектурные чертежи, активные шлюзы и каналы удалённого управления мобильным Linux. Оставьте сложность консольных команд за порогом — ниже представлены наш манифест и полный реестр действующих модулей.
 
 ---
+
+</div>
 
 ## 🎯 Главная цель (Миссия лаборатории)
 
