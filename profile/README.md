@@ -27,7 +27,7 @@
 | Проект / Инструмент | Назначение и стек | Репозиторий |
 | :--- | :--- | :---: |
 | 🪝 **termux-agent-hooks** | **AI Agent Hooks**: Тактильный виброотклик (32мс), звуковые пуши при длительных задачах (>5 мин), биометрический щит (отпечаток пальца) на опасные команды и суточный кулдаун обновлений. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/termux-agent-hooks) |
-| ⚡ **gemini-spark-mcp-bridge** | **MCP-мост для Spark Gemini**: Управляйте Termux и Antigravity CLI (и на ПК) из веб-интерфейса Google Gemini Spark по FastMCP / Streamable HTTP. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/gemini-spark-mcp-bridge) |
+| 🚀 **antigravity-termux** | **Официальный Antigravity CLI в Termux**: Нативный автономный AI-агент от Google (NDK/Bionic libc, v1.2.15+). Больше не нужны сторонние форки и патчи `termux-fix-path`. | [Официальный репозиторий](https://antigravity.google/cli) |
 | 🤖 **codex-termux-remote-control** | **Codex Remote Control**: Подключение OpenAI Codex CLI в Termux к мобильному приложению ChatGPT Remote Control + виджеты быстрого запуска. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/codex-termux-remote-control) |
 | 🛰️ **antigravity-remote-control** | **Antigravity Remote Control**: Удалённое управление сессиями Antigravity CLI (v1.2.6+) с ПК и смартфона через веб-UI + Termux:Widget. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/antigravity-remote-control) |
 | 🔘 **termux-widget-shortcuts** | **Виджеты и ярлыки**: Готовые шаблоны и руководство по созданию виджетов рабочего стола Termux:Widget и Android Dynamic Shortcuts. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/termux-widget-shortcuts) |
@@ -37,9 +37,36 @@
 | ⚡ **termux-shutdown-tools** | **Shutdown & Wakelock**: Чистый экзит фоновых процессов, предотвращение скрытого разряда батареи и управление CPU Wakelock. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/termux-shutdown-tools) |
 | 🧹 **termux-cleanup** | **Безопасная очистка**: Удаление устаревших кэшей apt, npm, pip, pnpm store, логов и временных файлов без риска поломки окружения. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/termux-cleanup) |
 | 🔄 **termux-auto-updater** | **Безопасное автообновление**: Автоматизированное обновление пакетов и CLI-агентов с защитой shebang и путей по стандарту termux-fix-path. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/termux-auto-updater) |
+| ⚡ **gemini-spark-mcp-bridge** | **MCP-мост для Spark Gemini**: Управляйте Termux и Antigravity CLI (и на ПК) из веб-интерфейса Google Gemini Spark по FastMCP / Streamable HTTP. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/gemini-spark-mcp-bridge) |
 | 📱 **termux-api** | **Hardware & Sensor Bridge**: Набор скриптов и скилл прямого доступа автономных AI-агентов к аппаратным сенсорам, батарее и Android API. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/termux-api) |
 
 > 💡 Полный список текущих и будущих разработок доступен во вкладке **[Repositories](https://github.com/orgs/Enigman-Termux-lab/repositories)**.
+
+---
+
+## 🚀 Нативный Antigravity CLI в Termux (Официальный движок)
+
+> [!IMPORTANT]
+> **Патчи больше не нужны!** Начиная с версии **1.2.15+**, больше **не требуется** патчить бинарники утилитой `termux-fix-path`, применять костыли под 39-битное адресное пространство (VA39, `agy.va39`) или собирать сторонние форки. Используйте официальный дистрибутив Google.
+
+### 🔍 Почему именно официальный репозиторий:
+- **Официальная нативная поддержка Android / Termux:** Google DeepMind официально включил платформу Android в целевую матрицу сборки Antigravity CLI.
+- **Сборка через Android NDK (Bionic libc):** Бинарники компилируются напрямую под нативную C-библиотеку Android (Bionic ELF, ARM64) без промежуточных трансляторов glibc, эмуляторов PRoot или подмены библиотек через `LD_PRELOAD`.
+- **Полная аппаратная стабильность:** Больше никаких сбоев аллокатора Google TCMalloc (`MmapAligned() failed` / SIGSEGV) и падений на системном вызове `faccessat2` на ядрах мобильных устройств.
+
+### 📦 Установка официального дистрибутива:
+```bash
+curl -fsSL https://antigravity.google/cli/install.sh | bash
+```
+
+### ⚡ Запуск и использование:
+```bash
+# Проверка установленной версии
+agy --version
+
+# Интерактивный запуск кодинг-агента
+agy
+```
 
 ---
 
