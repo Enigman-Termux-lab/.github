@@ -11,9 +11,6 @@
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Bash](https://img.shields.io/badge/Bash-Automation-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)](https://www.gnu.org/software/bash/)
 [![AI Agents](https://img.shields.io/badge/AI%20Agents-Autonomous-8E75B2?style=for-the-badge&logo=openai&logoColor=white)](https://github.com/Enigman-Termux-lab)
-[![Antigravity Bionic](https://img.shields.io/badge/Antigravity-Bionic%20r29-orange?style=for-the-badge&logo=google&logoColor=white)](https://github.com/Enigman-Termux-lab/antigravity-cli-termux)
-[![Lab Version](https://img.shields.io/badge/Lab%20Version-v2.0-39FF14?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Enigman-Termux-lab)
-[![Release Date](https://img.shields.io/badge/Release%20Date-October%202026-007EC6?style=for-the-badge&logo=googlecalendar&logoColor=white)](https://github.com/Enigman-Termux-lab)
 
 <br/>
 
