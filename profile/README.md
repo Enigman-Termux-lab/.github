@@ -9,7 +9,7 @@
 [![Python 3](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Bash](https://img.shields.io/badge/Bash-Automation-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)](https://www.gnu.org/software/bash/)
 [![Google Gemini](https://img.shields.io/badge/Google-Gemini%20Pro-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)](https://gemini.google.com/)
-[![Antigravity CLI](https://img.shields.io/badge/Antigravity-CLI%20Agent-orange?style=for-the-badge&logo=google&logoColor=white)](https://github.com/Enigman-Termux-lab)
+[![Antigravity CLI](https://img.shields.io/badge/Antigravity-CLI%20Agent-orange?style=for-the-badge&logo=google&logoColor=white)](https://github.com/Enigman-Termux-lab/antigravity-cli-termux)
 [![Lab Version](https://img.shields.io/badge/Lab%20Version-v1.0-39FF14?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Enigman-Termux-lab)
 
 <br/>
@@ -27,7 +27,7 @@
 | Проект / Инструмент | Назначение и стек | Репозиторий |
 | :--- | :--- | :---: |
 | 🪝 **termux-agent-hooks** | **AI Agent Hooks**: Тактильный виброотклик (32мс), звуковые пуши при длительных задачах (>5 мин), биометрический щит (отпечаток пальца) на опасные команды и суточный кулдаун обновлений. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/termux-agent-hooks) |
-| 🚀 **antigravity-termux** | **Официальный Antigravity CLI в Termux**: Нативный автономный AI-агент от Google (NDK/Bionic libc, v1.2.15+). Больше не нужны сторонние форки и патчи `termux-fix-path`. | [Официальный репозиторий](https://antigravity.google/cli) |
+| 🚀 **antigravity-cli-termux** | **Официальный Antigravity CLI в Termux**: Нативный автономный AI-агент от Google (NDK/Bionic libc, v1.2.15+). Больше не нужны сторонние форки и патчи `termux-fix-path`. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/antigravity-cli-termux) |
 | 🤖 **codex-termux-remote-control** | **Codex Remote Control**: Подключение OpenAI Codex CLI в Termux к мобильному приложению ChatGPT Remote Control + виджеты быстрого запуска. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/codex-termux-remote-control) |
 | 🛰️ **antigravity-remote-control** | **Antigravity Remote Control**: Удалённое управление сессиями Antigravity CLI (v1.2.6+) с ПК и смартфона через веб-UI + Termux:Widget. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/antigravity-remote-control) |
 | 🔘 **termux-widget-shortcuts** | **Виджеты и ярлыки**: Готовые шаблоны и руководство по созданию виджетов рабочего стола Termux:Widget и Android Dynamic Shortcuts. | [Перейти к проекту](https://github.com/Enigman-Termux-lab/termux-widget-shortcuts) |
@@ -44,10 +44,10 @@
 
 ---
 
-## 🚀 Нативный Antigravity CLI в Termux (Официальный движок)
+## 🚀 [Нативный Antigravity CLI в Termux](https://github.com/Enigman-Termux-lab/antigravity-cli-termux) (Официальный движок)
 
 > [!IMPORTANT]
-> **Патчи больше не нужны!** Начиная с версии **1.2.15+**, больше **не требуется** патчить бинарники утилитой `termux-fix-path`, применять костыли под 39-битное адресное пространство (VA39, `agy.va39`) или собирать сторонние форки. Используйте официальный дистрибутив Google.
+> **Патчи больше не нужны!** Начиная с версии **1.2.15+**, больше **не требуется** патчить бинарники утилитой `termux-fix-path`, применять костыли под 39-битное адресное пространство (VA39, `agy.va39`) или собирать сторонние форки. Подробная документация и руководство: [antigravity-cli-termux](https://github.com/Enigman-Termux-lab/antigravity-cli-termux).
 
 ### 🔍 Почему именно официальный репозиторий:
 - **Официальная нативная поддержка Android / Termux:** Google DeepMind официально включил платформу Android в целевую матрицу сборки Antigravity CLI.
